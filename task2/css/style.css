@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #9d9e9f;
+    width: 250px;
+}
+
+.element{
+    display: flex;
+    background-color: #9d9e9f;
+    align-items: center;
+}
+
+.element img{
+    width: 30%;
+}
+
+.element p{
+    color: white;
+}
+
+.container :hover{
+    background-color: #747474;
+}

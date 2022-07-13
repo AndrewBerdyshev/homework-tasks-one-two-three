@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+.main-container{
+    background-color: #254e6e;
+    color: white;
+    padding: 60px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-container p{
+    text-align: center;
+}
+
+.simple{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 256px;
+    height: 130px;
+}
+
+.images{
+    flex-direction: row;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a.yt{
+    width: 64px;
+    height: 64px;
+    background-image: url("/images/youtube_gray.png");
+}
+
+a.yt:hover{
+    background: url("/images/youtube.png");
+}
+
+a.fb{
+    width: 64px;
+    height: 64px;
+    background-image: url("/images/fb_gray.png");
+}
+
+a.fb:hover{
+    background: url("/images/fb.png");
+}
+
+a.it{
+    width: 64px;
+    height: 64px;
+    background-image: url("/images/insta_gray.png");
+}
+
+a.it:hover{
+    background: url("/images/insta.png");
+}

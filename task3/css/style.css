@@ -1,0 +1,51 @@
+*{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    color: white;
+    margin: 10px;
+    padding: 30px;
+}
+
+.special-left{
+    float: left;
+}
+
+.special-right{
+    float: right;
+}
+
+.aside-left{
+    width: 25%;
+}
+
+.aside-right{
+    width: 2%;
+}
+
+.main{
+    width: 60%;
+}
+
+.four{
+    background-color: rgb(143, 36, 36);
+}
+
+.three{
+    background-color: rgb(161, 55, 55);
+}
+
+.two{
+    background-color: rgb(199, 77, 77);
+}
+
+.one{
+    background-color: rgb(230, 111, 111);
+}
